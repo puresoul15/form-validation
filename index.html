@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="jquery.js"></script>
+
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>Form Validation</h1>
+  <h2 id="result">Congratulations ! you registerd successfully</h2>
+  <h2 id="error"> </h2>
+  <div class="wrapper">
+    <div class="box one">
+      <label for="email">Email * :</label>
+      <input type="text" name="" id="email" required>
+    </div>
+    <div class="box two">
+    <label for="Phone">Phone no *:</label>
+    <input type="text" name="" id="phone" required >
+    </div>
+    <div class="box three">
+      <label for="Password">Password *:</label>
+    <input type="password" name="" id="password" required >
+    <span id="togglePassword" style="position: relative; nav-left: 20px; top: 55%; transform: translateY(-50%); cursor: pointer;">
+    👁️
+  </span>
+    <UL id="passwordstrength">
+      <LI id="minletter">Minimum 6 letter</LI>
+      <LI id="one_lowercase">one lowercase letter</LI>
+      <LI id="one_uppercase">one uppercase letter</LI>
+      <LI id="one_numericdigit">one numeric digit</LI>
+      <LI id="one_special">one special character</LI>
+    </UL>
+    </div>
+    <div class="box four">
+      <label for="rePassword">Re-Password *:</label>
+    <input type="password" name="" id="rePassword" required>
+    
+  </div>
+    
+    <button id="Submit">Submit</button>
+  </div>
+   <script src="script.js"></script> 
+</body>
+</html>

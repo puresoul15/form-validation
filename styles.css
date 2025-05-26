@@ -1,0 +1,64 @@
+body{
+      font-size: 130%;
+    }
+    label{
+      width: 200px;
+      float: left;
+      position: relative;
+      top: 12px;
+      font-size: 25px;
+      
+    }
+    input{
+      width: 320px;
+      padding: 5px 5px 12px 5px;
+      border: 2px solid black;
+      border-radius: 12px;
+      font-size: 25px;
+      top: 12px;
+    }
+    div{
+      margin-top: 10px;
+    }
+    .eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+.wrapper{
+  margin: auto;
+  border: 4px solid black;
+  padding: 20px;
+  width: 80%;
+}
+#Submit{
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  color: aqua;
+  background-color: rgb(9, 1, 6);
+  font-size: 20px;
+}
+#result{
+  text-align: center;
+  color: green;
+  border:1px solid gray;
+  display: none;
+}
+#error{
+  text-align: center;
+  color: red;
+}
+#passwordstrength{
+  margin-left: 200px;
+  list-style-type: circle;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: greenyellow;
+  background-color: black;
+}
+
