@@ -22,7 +22,9 @@
     </div>
     <div class="box two">
     <label for="Phone">Phone no *:</label>
-    <input type="tel" name="" id="phone" maxlength="10" required >
+    <input type="text" id="phone" maxlength="10" required oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+
+
     </div>
     <div class="box three">
       <label for="Password">Password *:</label>
